@@ -106,7 +106,13 @@ export function Login() {
             className="footer"
             style={{ fontSize: "12px", marginTop: "20px" }}
           >
-            登录问题联系管理员qq：
+            登录问题联系客服qq：846036526
+          </div>
+          <div
+            className="footer"
+            style={{ fontSize: "12px", marginTop: "20px" }}
+          >
+            VX: xiafanzeng
           </div>
         </div>
       </div>
