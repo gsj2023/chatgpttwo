@@ -123,7 +123,13 @@ export function SideBar(props: { className?: string }) {
         ChatGPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+  	 <a href="https://docs.qq.com/doc/DY25DQ0FHb0dmbkVT" target="_blank">【1】使用教程，看一遍就会，点此查看</a>
+        </div>
+        <div className={styles["sidebar-sub-title"]}>
+  	 <a href="https://ai.tianguagpt.cn/" target="_blank">【2】售后客服微信：xiafanzeng</a>
+        </div>
+        <div className={styles["sidebar-sub-title"]}>
+  	 <a href="https://ai.tianguagpt.cn/" target="_blank">【3】售后客服QQ：846036526</a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -176,7 +182,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank">
+            <a href="https://ai.tianguagpt.cn/" target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
